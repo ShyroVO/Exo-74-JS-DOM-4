@@ -6,29 +6,22 @@
 </head>
 <body>
 
-<h1>Mad Libs</h1>
+        <h1>Mad Libs</h1>
 
-<ul>
-    <li>Noun: <input type="text" id="noun"></li>
-    <li>Adjective: <input type="text" id="adjective"></li>
-    <li>Someone's Name: <input type="text" id="person"></li>
-</ul>
+        <ul>
+            <li>Noun: <input type="text" id="noun"></li>
+            <li>Adjective: <input type="text" id="adjective"></li>
+            <li>Someone's Name: <input type="text" id="person"></li>
+        </ul>
 
-<button id="lib-button">Lib it!</button>
+        <button id="lib-button">Lib it!</button>
 
-<p>Generated story:
-    <span id="story"></span>
-</p>
+        <p>Generated story:
+            <span id="story"></span>
+        </p>
 
-<script>
-    var libButton = document.getElementById('lib-button');
-    var libIt = function() {
-        var storyDiv = document.getElementById("story");
-        storyDiv.innerHTML = "??Your story here";
-    };
-    libButton.addEventListener('click', libIt);
 
-</script>
+        <script src="exercice.js"></script>
 
 </body>
 </html>
