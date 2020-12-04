@@ -9,8 +9,6 @@ let text = noun.value + adjective.value + person.value;
 let libIt = function() {
     let storyDiv = document.getElementById("story");
     storyDiv.innerHTML += text + ".";
-
 };
 
 libButton.addEventListener('click', libIt);
-
